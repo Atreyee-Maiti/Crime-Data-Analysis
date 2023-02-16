@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="inputs.css">
+    <title>Survey Form</title>
+</head>
+<body>
+    <div class="container ">
+        <header class="header">
+            <h1 id="title">
+                Survey on the rape cases across India
+            </h1>
+            <p id="description">
+                An initiative : Supported By the NCW India<br>
+                Thank you for taking the time to help us. We would love to extend our efforts to make an positive impact in the society.
+            </p>
+        </header>
+        <form action="" id="survey-form">
+
+            <!-- Text section -->
+            <div class="form-group">
+                <label for="Area_Name"><p id="quest">State in which rape case(s) was reported </p></label>
+                <input type="text" name="Area_Name" id="Area_Name" class="formControl" placeholder="Enter here"><br>
+                <label for="Year"><p id="quest" >Year of offence</p></label>
+                <input type="number" name="Year" id="Year" class="formControl" placeholder="Enter the year" required><br>
+             
+                    <p id="quest"> Select Subgroup</p>
+                    <label for="Total">
+                        <input type="radio" name="Subgroup" value="Total Rape Victims"
+                        class="inputRadio"
+                        > Total Rape Victims
+                    </label>
+                    <label for="Incest">
+                        <input type="radio" name="Subgroup" value="Victims of incest rape"
+                        class="inputRadio"
+                        > Victims of incest rape
+                    </label>
+                    <label for="Other">
+                        <input type="radio" name="Subgroup" value="Victims of other Rape"
+                        class="inputRadio"
+                        >Victims of other rape
+                    </label>
+                       
+            <br>
+            
+                <label for="Victims_Above_50_Yrs"><p id="quest" >Number of victims above 50 years of age</p></label>
+                <input type="number" name="Victims_Above_50_Yrs" id="Victims_Above_50_Yrs" class="formControl" placeholder="Enter here"><br>
+                <label for="Victims_Between_30-50_Yrs"><p id="quest" >Number of victims between 30-50 years of age</p></label>
+                <input type="number" name="Victims_Between_30-50_Yrs" id="Victims_Between_30-50_Yrs" class="formControl" placeholder="Enter here"><br>
+                <label for="Victims_Between_18-30_Yrs"><p id="quest" >Number of victims between 18-30 years of age</p></label>
+                <input type="number" name="Victims_Between_18-30_Yrs" id="Victims_Between_18-30_Yrs" class="formControl" placeholder="Enter here"><br>
+                <label for="Victims_Between_14-18_Yrs"><p id="quest" >Number of victims between 14-18 years of age</p></label>
+                <input type="number" name="Victims_Between_14-18_Yrs" id="Victims_Between_14-18_Yrs" class="formControl" placeholder="Enter here"><br>
+               
+                <label for="Victims_Between_10-14_Yrs"><p id="quest" >Number of victims between 10-14 years of age</p></label>
+                <input type="number" name="Victims_Between_10-14_Yrs" id="Victims_Between_10-14_Yrs" class="formControl" placeholder="Enter here"><br>
+               
+                <label for="Victims_Upto_10_Yrs"><p id="quest" >Number of victims upto 10 years of age</p></label>
+                <input type="number" name="Victims_Upto_10_Yrs" id="Victims_Upto_10_Yrs" class="formControl" placeholder="Enter here"><br>
+               
+                <div class="form-group">
+                <button type="submit" id="submit" class="btn">Submit</button>
+                </div> 
+            </div>
+        </form>
+    </div>
+<script src="inputs.js"></script>
+</body>
+</html>
